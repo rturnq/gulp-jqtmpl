@@ -1,16 +1,29 @@
 {
   "name": "gulp-jqtmpl",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Compile jQuery templates with Gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "homepage": "https://github.com/rturnq/gulp-jqtmpl",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rturnq/gulp-jqtmpl"
+    },
+    "keywords": [
+        "jquery",
+        "templates",
+        "compile",
+        "gulp",
+        "gulpplugin"
+    ],
   "author": "rturnq",
   "license": "MIT",
   "dependencies": {
     "extend": "^3.0.0",
     "jqtmpl-compiler": "0.0.2",
     "through2": "^2.0.0"
-  }
+  },
+    "readmeFilename": "README.md"
 }
