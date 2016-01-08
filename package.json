@@ -1,0 +1,16 @@
+{
+  "name": "gulp-jqtmpl",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rturnq",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "jqtmpl-compiler": "0.0.2",
+    "through2": "^2.0.0"
+  }
+}
