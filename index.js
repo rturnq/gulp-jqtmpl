@@ -15,11 +15,12 @@ var defaults = {
 };
 
 module.exports = function (opts) {
-    var compiler = new Compiler(),
+    var compiler,
         lastFile,
         templates = null;
 
     opts = extend({}, defaults, opts);
+    compiler = new Compiler(opts);
 
     if (typeof opts.map !== 'function') {
         opts.map = map;
